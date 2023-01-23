@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+
+.topBar {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  min-height: 40px;
+  background-color: cornflowerblue;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideBar {
+  display: flex;
+  min-width: 100px;
+  background-color: lightblue;
+}
+
+.content {
+  display: flex;
+  background-color: aliceblue;
+}
